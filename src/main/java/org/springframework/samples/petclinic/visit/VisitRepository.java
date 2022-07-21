@@ -43,7 +43,7 @@ public interface VisitRepository extends Repository<Visit, Integer> {
 
 	/**
 	 * Tests
-	 * */
+	 */
 
 	List<Visit> findByPetId(Integer petId);
 
